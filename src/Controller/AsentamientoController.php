@@ -106,4 +106,21 @@ class AsentamientoController extends AppController
 
         return $this->redirect(['action' => 'index']);
     }
+    public function search()
+    {
+        //Busqueda que solo trae el nombre de la casilla devolutivos
+        $asentamiento = $this->Asentamiento->find('all',array('conditions' => array('Asentamiento.nombreAsentamiento')));
+        if ($this->request->is('post'))
+        {
+            if ($asentamiento)
+            {
+                $this->Flash->success('Busqueda efectiva, elemento encontrado');
+            }
+            else
+            {
+                $this->Flash->error('No existe el asentamiento');
+            }
+        }
+        $this->set('asentamiento',$asentamiento);
+    }
 }
