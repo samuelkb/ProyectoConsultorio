@@ -15,7 +15,7 @@
         <thead>
             <tr>
                 <th scope="col"><?= $this->Paginator->sort('id') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('nombre del asentamiento') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('nombre de asentamiento') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('id Tipo de asentamiento') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('Codigo postal') ?></th>
                 <th scope="col" class="actions"><?= __('Acciones') ?></th>
@@ -28,10 +28,10 @@
                 <td><?= h($asentamiento->nombreAsentamiento) ?></td>
                 <td><?= $this->Number->format($asentamiento->TipoAsentamiento_idTipoAsentamiento) ?></td>
                 <td><?= $this->Number->format($asentamiento->CodigoPostal_idCodigoPostal) ?></td>
-                <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $asentamiento->idAsentamiento]) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $asentamiento->idAsentamiento]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $asentamiento->idAsentamiento], ['confirm' => __('Are you sure you want to delete # {0}?', $asentamiento->idAsentamiento)]) ?>
+                <td class="Acciones">
+                    <?= $this->Html->link(__('Ver'), ['action' => 'view', $asentamiento->idAsentamiento]) ?>
+                    <?= $this->Html->link(__('Editar'), ['action' => 'edit', $asentamiento->idAsentamiento]) ?>
+                    <?= $this->Form->postLink(__('Borrar'), ['action' => 'delete', $asentamiento->idAsentamiento], ['confirm' => __('Are you sure you want to delete # {0}?', $asentamiento->idAsentamiento)]) ?>
                 </td>
             </tr>
             <?php endforeach; ?>

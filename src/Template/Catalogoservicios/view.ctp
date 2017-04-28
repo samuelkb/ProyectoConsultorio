@@ -3,13 +3,13 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('Edit Catalogoservicio'), ['action' => 'edit', $catalogoservicio->idCatalogoServicios]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Catalogoservicio'), ['action' => 'delete', $catalogoservicio->idCatalogoServicios], ['confirm' => __('Are you sure you want to delete # {0}?', $catalogoservicio->idCatalogoServicios)]) ?> </li>
-        <li><?= $this->Html->link(__('List Catalogoservicios'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Catalogoservicio'), ['action' => 'add']) ?> </li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Editar servicio'), ['action' => 'edit', $catalogoservicio->idCatalogoServicios]) ?> </li>
+        <li><?= $this->Form->postLink(__('Borrar servicio'), ['action' => 'delete', $catalogoservicio->idCatalogoServicios], ['confirm' => __('Are you sure you want to delete # {0}?', $catalogoservicio->idCatalogoServicios)]) ?> </li>
+        <li><?= $this->Html->link(__('Catalogo de servicios'), ['action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('Nuevo servicio'), ['action' => 'add']) ?> </li>
     </ul>
 </nav>
 <div class="catalogoservicios view large-9 medium-8 columns content">

@@ -3,13 +3,13 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('Edit Bitacora'), ['action' => 'edit', $bitacora->idBitacora]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Bitacora'), ['action' => 'delete', $bitacora->idBitacora], ['confirm' => __('Are you sure you want to delete # {0}?', $bitacora->idBitacora)]) ?> </li>
-        <li><?= $this->Html->link(__('List Bitacora'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Bitacora'), ['action' => 'add']) ?> </li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Editar bitacora'), ['action' => 'edit', $bitacora->idBitacora]) ?> </li>
+        <li><?= $this->Form->postLink(__('Borrar bitacora'), ['action' => 'delete', $bitacora->idBitacora], ['confirm' => __('Are you sure you want to delete # {0}?', $bitacora->idBitacora)]) ?> </li>
+        <li><?= $this->Html->link(__('Lista de bitacora'), ['action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('Nuevo registro de Bitacora'), ['action' => 'add']) ?> </li>
     </ul>
 </nav>
 <div class="bitacora view large-9 medium-8 columns content">

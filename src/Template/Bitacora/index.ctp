@@ -3,10 +3,10 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New Bitacora'), ['action' => 'add']) ?></li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Nuevo registro a bitacora'), ['action' => 'add']) ?></li>
     </ul>
 </nav>
 <div class="bitacora index large-9 medium-8 columns content">
@@ -14,13 +14,13 @@
     <table cellpadding="0" cellspacing="0">
         <thead>
             <tr>
-                <th scope="col"><?= $this->Paginator->sort('idBitacora') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('operacion') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('usuario') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('servidor') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('modificado') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('tabla') ?></th>
-                <th scope="col" class="actions"><?= __('Actions') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('modificado por') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('sobre la tabla') ?></th>
+                <th scope="col" class="actions"><?= __('Acciones') ?></th>
             </tr>
         </thead>
         <tbody>
@@ -33,9 +33,9 @@
                 <td><?= h($bitacora->modificado) ?></td>
                 <td><?= h($bitacora->tabla) ?></td>
                 <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $bitacora->idBitacora]) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $bitacora->idBitacora]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $bitacora->idBitacora], ['confirm' => __('Are you sure you want to delete # {0}?', $bitacora->idBitacora)]) ?>
+                    <?= $this->Html->link(__('Ver'), ['action' => 'view', $bitacora->idBitacora]) ?>
+                    <?= $this->Html->link(__('Editar'), ['action' => 'edit', $bitacora->idBitacora]) ?>
+                    <?= $this->Form->postLink(__('Borrar'), ['action' => 'delete', $bitacora->idBitacora], ['confirm' => __('Are you sure you want to delete # {0}?', $bitacora->idBitacora)]) ?>
                 </td>
             </tr>
             <?php endforeach; ?>
@@ -43,11 +43,11 @@
     </table>
     <div class="paginator">
         <ul class="pagination">
-            <?= $this->Paginator->first('<< ' . __('first')) ?>
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->first('<< ' . __('primera')) ?>
+            <?= $this->Paginator->prev('< ' . __('anterior')) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
-            <?= $this->Paginator->last(__('last') . ' >>') ?>
+            <?= $this->Paginator->next(__('siguiente') . ' >') ?>
+            <?= $this->Paginator->last(__('ultima') . ' >>') ?>
         </ul>
         <p><?= $this->Paginator->counter(['format' => __('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')]) ?></p>
     </div>

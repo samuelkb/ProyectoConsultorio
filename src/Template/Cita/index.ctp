@@ -3,28 +3,28 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New Citum'), ['action' => 'add']) ?></li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Nueva cita'), ['action' => 'add']) ?></li>
     </ul>
 </nav>
-<div class="cita index large-9 medium-8 columns content">
+<div class="cita index large-10 medium-8 columns content">
     <h3><?= __('Cita') ?></h3>
     <table cellpadding="0" cellspacing="0">
         <thead>
             <tr>
-                <th scope="col"><?= $this->Paginator->sort('idCita') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('horaInicio') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('horaTermino') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('Hora de inicio') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('Hora de termino') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('observaciones') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('Paciente_idPaciente') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('empleado_idempleado') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('empleado_ConsultorioDental_idConsultorioDental') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('CatalogoServicios_idCatalogoServicios') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('Pago_idPago') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('Expediente_idExpediente') ?></th>
-                <th scope="col" class="actions"><?= __('Actions') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('Id del paciente') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('Id del empleado') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('Id del consultorio dental') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('Id Catalogo de servicios') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('Id de pago') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('Id de expediente') ?></th>
+                <th scope="col" class="actions"><?= __('Acciones') ?></th>
             </tr>
         </thead>
         <tbody>
@@ -41,9 +41,9 @@
                 <td><?= $this->Number->format($citum->Pago_idPago) ?></td>
                 <td><?= $this->Number->format($citum->Expediente_idExpediente) ?></td>
                 <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $citum->idCita]) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $citum->idCita]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $citum->idCita], ['confirm' => __('Are you sure you want to delete # {0}?', $citum->idCita)]) ?>
+                    <?= $this->Html->link(__('Ver'), ['action' => 'view', $citum->idCita]) ?>
+                    <?= $this->Html->link(__('Editar'), ['action' => 'edit', $citum->idCita]) ?>
+                    <?= $this->Form->postLink(__('Borrar'), ['action' => 'delete', $citum->idCita], ['confirm' => __('Are you sure you want to delete # {0}?', $citum->idCita)]) ?>
                 </td>
             </tr>
             <?php endforeach; ?>
@@ -51,11 +51,11 @@
     </table>
     <div class="paginator">
         <ul class="pagination">
-            <?= $this->Paginator->first('<< ' . __('first')) ?>
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->first('<< ' . __('primera')) ?>
+            <?= $this->Paginator->prev('< ' . __('anterior')) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
-            <?= $this->Paginator->last(__('last') . ' >>') ?>
+            <?= $this->Paginator->next(__('siguiente') . ' >') ?>
+            <?= $this->Paginator->last(__('ultima') . ' >>') ?>
         </ul>
         <p><?= $this->Paginator->counter(['format' => __('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')]) ?></p>
     </div>
