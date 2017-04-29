@@ -3,18 +3,18 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('List Consultoriodental'), ['action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('List Inventario'), ['controller' => 'Inventario', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New Inventario'), ['controller' => 'Inventario', 'action' => 'add']) ?></li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Lista de consultorios dentales'), ['action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('Lista de inventario'), ['controller' => 'Inventario', 'action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('Nuevo inventario'), ['controller' => 'Inventario', 'action' => 'add']) ?></li>
     </ul>
 </nav>
 <div class="consultoriodental form large-9 medium-8 columns content">
     <?= $this->Form->create($consultoriodental) ?>
     <fieldset>
-        <legend><?= __('Add Consultoriodental') ?></legend>
+        <legend><?= __('Añadir Consultorio dental') ?></legend>
         <?php
             echo $this->Form->control('nombreConsultorio');
             echo $this->Form->control('Direccion_idDireccion');

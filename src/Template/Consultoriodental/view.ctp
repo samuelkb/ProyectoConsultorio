@@ -3,12 +3,12 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('Edit Consultoriodental'), ['action' => 'edit', $consultoriodental->idConsultorioDental]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Consultoriodental'), ['action' => 'delete', $consultoriodental->idConsultorioDental], ['confirm' => __('Are you sure you want to delete # {0}?', $consultoriodental->idConsultorioDental)]) ?> </li>
-        <li><?= $this->Html->link(__('List Consultoriodental'), ['action' => 'index']) ?> </li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Editar consultorio dental'), ['action' => 'edit', $consultoriodental->idConsultorioDental]) ?> </li>
+        <li><?= $this->Form->postLink(__('Borrar consultorio dental'), ['action' => 'delete', $consultoriodental->idConsultorioDental], ['confirm' => __('Are you sure you want to delete # {0}?', $consultoriodental->idConsultorioDental)]) ?> </li>
+        <li><?= $this->Html->link(__('List consultorio dental'), ['action' => 'index']) ?> </li>
         <li><?= $this->Html->link(__('New Consultoriodental'), ['action' => 'add']) ?> </li>
         <li><?= $this->Html->link(__('List Inventario'), ['controller' => 'Inventario', 'action' => 'index']) ?> </li>
         <li><?= $this->Html->link(__('New Inventario'), ['controller' => 'Inventario', 'action' => 'add']) ?> </li>
