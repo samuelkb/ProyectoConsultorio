@@ -5,7 +5,7 @@
 ?>
 <nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
+        <li class="heading"><?= __('Acciones') ?></li>
         <li><?= $this->Form->postLink(
                 __('Borrar'),
                 ['action' => 'delete', $consultoriodental->idConsultorioDental],
@@ -14,7 +14,7 @@
         ?></li>
         <li><?= $this->Html->link(__('Lista de consultorios dentales'), ['action' => 'index']) ?></li>
         <li><?= $this->Html->link(__('Lista de inventario'), ['controller' => 'Inventario', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('Nuevo Inventario'), ['controller' => 'Inventario', 'action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('Nuevo item de inventario'), ['controller' => 'Inventario', 'action' => 'add']) ?></li>
     </ul>
 </nav>
 <div class="consultoriodental form large-9 medium-8 columns content">

@@ -18,7 +18,7 @@
                 <th scope="col"><?= $this->Paginator->sort('nombre de consultorio') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('Id de direccion') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('Id de contacto') ?></th>
-                <th scope="col" class="actions"><?= __('Actions') ?></th>
+                <th scope="col" class="actions"><?= __('Acciones') ?></th>
             </tr>
         </thead>
         <tbody>

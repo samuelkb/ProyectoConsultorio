@@ -3,16 +3,16 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('List Direccion'), ['action' => 'index']) ?></li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Lista de direcciones'), ['action' => 'index']) ?></li>
     </ul>
 </nav>
 <div class="direccion form large-9 medium-8 columns content">
     <?= $this->Form->create($direccion) ?>
     <fieldset>
-        <legend><?= __('Add Direccion') ?></legend>
+        <legend><?= __('Añadir Direccion') ?></legend>
         <?php
             echo $this->Form->control('nombreCalle');
             echo $this->Form->control('numeroExterno');

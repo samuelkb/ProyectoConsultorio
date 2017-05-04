@@ -3,10 +3,10 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New Contacto'), ['action' => 'add']) ?></li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Nuevo contacto'), ['action' => 'add']) ?></li>
     </ul>
 </nav>
 <div class="contacto index large-9 medium-8 columns content">
@@ -14,11 +14,11 @@
     <table cellpadding="0" cellspacing="0">
         <thead>
             <tr>
-                <th scope="col"><?= $this->Paginator->sort('idContacto') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('telefono') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('celular') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('correoElectronico') ?></th>
-                <th scope="col" class="actions"><?= __('Actions') ?></th>
+                <th scope="col"><?= $this->Paginator->sort('correo Electronico') ?></th>
+                <th scope="col" class="actions"><?= __('Acciones') ?></th>
             </tr>
         </thead>
         <tbody>
@@ -29,9 +29,9 @@
                 <td><?= h($contacto->celular) ?></td>
                 <td><?= h($contacto->correoElectronico) ?></td>
                 <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $contacto->idContacto]) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $contacto->idContacto]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $contacto->idContacto], ['confirm' => __('Are you sure you want to delete # {0}?', $contacto->idContacto)]) ?>
+                    <?= $this->Html->link(__('Ver'), ['action' => 'view', $contacto->idContacto]) ?>
+                    <?= $this->Html->link(__('Editar'), ['action' => 'edit', $contacto->idContacto]) ?>
+                    <?= $this->Form->postLink(__('Borrar'), ['action' => 'delete', $contacto->idContacto], ['confirm' => __('Are you sure you want to delete # {0}?', $contacto->idContacto)]) ?>
                 </td>
             </tr>
             <?php endforeach; ?>
@@ -39,11 +39,11 @@
     </table>
     <div class="paginator">
         <ul class="pagination">
-            <?= $this->Paginator->first('<< ' . __('first')) ?>
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->first('<< ' . __('primera')) ?>
+            <?= $this->Paginator->prev('< ' . __('anterior')) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
-            <?= $this->Paginator->last(__('last') . ' >>') ?>
+            <?= $this->Paginator->next(__('siguiente') . ' >') ?>
+            <?= $this->Paginator->last(__('ultima') . ' >>') ?>
         </ul>
         <p><?= $this->Paginator->counter(['format' => __('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')]) ?></p>
     </div>

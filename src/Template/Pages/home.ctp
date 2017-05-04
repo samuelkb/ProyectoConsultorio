@@ -45,7 +45,7 @@ $cakeDescription = 'Sistema de administración Clinica Dental Alfa';
 <body class="home">
 
 <header class="row">
-    <div class="header-image"><?= $this->Html->image('consultoriodental.jpg') ?></div>
+    <div align="center" class="img-responsive"><?= $this->Html->image('consultoriodental.jpg',  array('width' => 150, 'height' => 150));?></div>
     <div class="header-title">
         <h1>Bienvenido a MiConsultorio Dental alfa.</h1>
     </div>
@@ -60,7 +60,7 @@ $cakeDescription = 'Sistema de administración Clinica Dental Alfa';
                    <legend>Password</legend>
                    <input type="password" name="password" placeholder="Password" required="">
                  </fieldset>
-                 <p><a href="usuario" class="btn btn-primary btn-lg" role="button">Acceder</a></p>
+                 <?= $this->Form->button(__('Acceder')) ?>
         </div>
         <?php Debugger::checkSecurityKeys(); ?>
     </div>
