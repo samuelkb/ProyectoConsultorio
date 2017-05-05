@@ -34,37 +34,4 @@
             <td><?= $this->Number->format($consultoriodental->Contacto_idContacto) ?></td>
         </tr>
     </table>
-    <div class="related">
-        <h4><?= __('Inventario') ?></h4>
-        <?php if (!empty($consultoriodental->inventario)): ?>
-        <table cellpadding="0" cellspacing="0">
-            <tr>
-                <th scope="col"><?= __('IdInventario') ?></th>
-                <th scope="col"><?= __('NombreItem') ?></th>
-                <th scope="col"><?= __('DescripcionItem') ?></th>
-                <th scope="col"><?= __('Stock') ?></th>
-                <th scope="col"><?= __('FechaDeCaducidad') ?></th>
-                <th scope="col"><?= __('Categoria IdCategoria') ?></th>
-                <th scope="col"><?= __('ConsultorioDental IdConsultorioDental') ?></th>
-                <th scope="col" class="actions"><?= __('Acciones') ?></th>
-            </tr>
-            <?php foreach ($consultoriodental->inventario as $inventario): ?>
-            <tr>
-                <td><?= h($inventario->idInventario) ?></td>
-                <td><?= h($inventario->nombreItem) ?></td>
-                <td><?= h($inventario->descripcionItem) ?></td>
-                <td><?= h($inventario->stock) ?></td>
-                <td><?= h($inventario->fechaDeCaducidad) ?></td>
-                <td><?= h($inventario->Categoria_idCategoria) ?></td>
-                <td><?= h($inventario->ConsultorioDental_idConsultorioDental) ?></td>
-                <td class="actions">
-                    <?= $this->Html->link(__('Ver'), ['controller' => 'Inventario', 'action' => 'view', $inventario->idInventario]) ?>
-                    <?= $this->Html->link(__('Editar'), ['controller' => 'Inventario', 'action' => 'edit', $inventario->idInventario]) ?>
-                    <?= $this->Form->postLink(__('Borrar'), ['controller' => 'Inventario', 'action' => 'delete', $inventario->idInventario], ['confirm' => __('Are you sure you want to delete # {0}?', $inventario->idInventario)]) ?>
-                </td>
-            </tr>
-            <?php endforeach; ?>
-        </table>
-        <?php endif; ?>
-    </div>
 </div>

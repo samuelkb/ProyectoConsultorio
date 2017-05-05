@@ -33,6 +33,8 @@ class EmpleadoTable extends Table
         $this->setTable('empleado');
         $this->setDisplayField('idempleado');
         $this->setPrimaryKey(['idempleado', 'ConsultorioDental_idConsultorioDental']);
+
+        $this->hasMany('Cita',['foreignKey'=>'idCita','joinType'=>'INNER']);
     }
 
     /**

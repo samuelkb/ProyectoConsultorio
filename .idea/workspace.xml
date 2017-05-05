@@ -3,27 +3,86 @@
   <component name="ChangeListManager">
     <list default="true" id="a459d397-6bc9-4289-a1a1-2d22773d2885" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.php" afterPath="$PROJECT_DIR$/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/AppController.php" afterPath="$PROJECT_DIR$/src/Controller/AppController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/AsentamientoController.php" afterPath="$PROJECT_DIR$/src/Controller/AsentamientoController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/BitacoraController.php" afterPath="$PROJECT_DIR$/src/Controller/BitacoraController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/CatalogoserviciosController.php" afterPath="$PROJECT_DIR$/src/Controller/CatalogoserviciosController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/CategoriaController.php" afterPath="$PROJECT_DIR$/src/Controller/CategoriaController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/CitaController.php" afterPath="$PROJECT_DIR$/src/Controller/CitaController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/CodigopostalController.php" afterPath="$PROJECT_DIR$/src/Controller/CodigopostalController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ConsultorioDentalController.php" afterPath="$PROJECT_DIR$/src/Controller/ConsultorioDentalController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ContactoController.php" afterPath="$PROJECT_DIR$/src/Controller/ContactoController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/DireccionController.php" afterPath="$PROJECT_DIR$/src/Controller/DireccionController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/EmpleadoController.php" afterPath="$PROJECT_DIR$/src/Controller/EmpleadoController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/EstadoController.php" afterPath="$PROJECT_DIR$/src/Controller/EstadoController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ExpedienteController.php" afterPath="$PROJECT_DIR$/src/Controller/ExpedienteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/FacturaController.php" afterPath="$PROJECT_DIR$/src/Controller/FacturaController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/InventarioController.php" afterPath="$PROJECT_DIR$/src/Controller/InventarioController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/MunicipioController.php" afterPath="$PROJECT_DIR$/src/Controller/MunicipioController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/PacienteController.php" afterPath="$PROJECT_DIR$/src/Controller/PacienteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/PagoController.php" afterPath="$PROJECT_DIR$/src/Controller/PagoController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/RazonsocialController.php" afterPath="$PROJECT_DIR$/src/Controller/RazonsocialController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ReciboController.php" afterPath="$PROJECT_DIR$/src/Controller/ReciboController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/TipoasentamientoController.php" afterPath="$PROJECT_DIR$/src/Controller/TipoasentamientoController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/UsuarioController.php" afterPath="$PROJECT_DIR$/src/Controller/UsuarioController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Entity/Usuario.php" afterPath="$PROJECT_DIR$/src/Model/Entity/Usuario.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/AsentamientoTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/AsentamientoTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/CodigopostalTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/CodigopostalTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/CatalogoserviciosTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/CatalogoserviciosTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/CitaTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/CitaTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/ConsultoriodentalTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/ConsultoriodentalTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/ContactoTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/ContactoTable.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/DireccionTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/DireccionTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/EstadoTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/EstadoTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/TipoasentamientoTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/TipoasentamientoTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/UsuarioTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/UsuarioTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Cita/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Cita/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/EmpleadoTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/EmpleadoTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/PacienteTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/PacienteTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Cita/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Cita/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Consultoriodental/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Consultoriodental/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Consultoriodental/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Consultoriodental/edit.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Consultoriodental/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Consultoriodental/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Direccion/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Direccion/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Empleado/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Empleado/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Empleado/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Empleado/edit.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Empleado/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Empleado/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Empleado/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Empleado/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Estado/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Estado/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Estado/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Estado/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Estado/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Estado/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Estado/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Estado/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Expediente/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Expediente/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Expediente/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Expediente/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Expediente/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Expediente/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Expediente/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Expediente/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Factura/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Factura/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Factura/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Factura/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Factura/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Factura/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Factura/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Factura/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Inventario/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Inventario/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Inventario/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Inventario/edit.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Inventario/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Inventario/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Inventario/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Inventario/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Municipio/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Municipio/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Municipio/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Municipio/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Municipio/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Municipio/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Municipio/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Municipio/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Paciente/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Paciente/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Paciente/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Paciente/edit.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Paciente/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Paciente/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Pages/home.ctp" afterPath="$PROJECT_DIR$/src/Template/Pages/home.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Paciente/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Paciente/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Pago/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Pago/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Pago/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Pago/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Pago/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Pago/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Pago/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Pago/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Razonsocial/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Razonsocial/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Razonsocial/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Razonsocial/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Razonsocial/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Razonsocial/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Razonsocial/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Razonsocial/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Recibo/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Recibo/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Recibo/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Recibo/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Recibo/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Recibo/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Recibo/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Recibo/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Tipoasentamiento/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Tipoasentamiento/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Tipoasentamiento/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Tipoasentamiento/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Tipoasentamiento/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Tipoasentamiento/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Tipoasentamiento/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Tipoasentamiento/view.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Usuario/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Usuario/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Fixture/UsuarioFixture.php" afterPath="$PROJECT_DIR$/tests/Fixture/UsuarioFixture.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Usuario/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Usuario/edit.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Usuario/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Usuario/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Usuario/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Usuario/view.ctp" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,91 +97,51 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Template/Pages/home.ctp">
+      <file leaf-file-name="ConsultorioDentalController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/ConsultorioDentalController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="68" column="125" lean-forward="false" selection-start-line="68" selection-start-column="125" selection-end-line="68" selection-end-column="125" />
+            <state relative-caret-position="425">
+              <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InventarioTable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Table/InventarioTable.php">
+      <file leaf-file-name="CitaController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/CitaController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="36" column="91" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="91" />
+            <state relative-caret-position="442">
+              <caret line="68" column="49" lean-forward="false" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CodigopostalTable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Table/CodigopostalTable.php">
+      <file leaf-file-name="add.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/Cita/add.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="70" />
+            <state relative-caret-position="374">
+              <caret line="22" column="136" lean-forward="false" selection-start-line="22" selection-start-column="118" selection-end-line="22" selection-end-column="136" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DireccionController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/DireccionController.php">
+      <file leaf-file-name="CitaTable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Table/CitaTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+            <state relative-caret-position="257">
+              <caret line="39" column="101" lean-forward="false" selection-start-line="39" selection-start-column="101" selection-end-line="39" selection-end-column="101" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsentamientoTable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Table/AsentamientoTable.php">
+      <file leaf-file-name="PacienteTable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Table/PacienteTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="36" column="78" lean-forward="false" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TipoasentamientoTable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Table/TipoasentamientoTable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="36" column="73" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.ctp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Template/Asentamiento/add.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoriaTable.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Model/Table/CategoriaTable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Template/Pages/menu.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
+            <state relative-caret-position="393">
+              <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -136,57 +155,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Template/Categoria/add.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Cita/edit.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Cita/add.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Cita/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Layout/default.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Codigopostal/edit.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Codigopostal/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Codigopostal/add.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Codigopostal/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Consultoriodental/add.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Consultoriodental/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Consultoriodental/edit.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Contacto/edit.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Contacto/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Contacto/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Contacto/add.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Direccion/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Direccion/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Direccion/edit.ctp" />
-        <option value="$PROJECT_DIR$/src/Model/User.php" />
-        <option value="$PROJECT_DIR$/src/Model/AppModel.php" />
-        <option value="$PROJECT_DIR$/src/Controller/UsersController.php" />
-        <option value="$PROJECT_DIR$/webroot/css/login.css" />
-        <option value="$PROJECT_DIR$/config/routes.php" />
+        <option value="$PROJECT_DIR$/src/Template/Pago/view.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Pago/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Razonsocial/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Razonsocial/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Razonsocial/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Razonsocial/view.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Recibo/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Recibo/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Recibo/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Recibo/view.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Usuario/login.ctp" />
-        <option value="$PROJECT_DIR$/src/Model/Table/UsuarioTable.php" />
+        <option value="$PROJECT_DIR$/src/Template/Tipoasentamiento/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Tipoasentamiento/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Tipoasentamiento/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Tipoasentamiento/view.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Usuario/view.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Usuario/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Usuario/edit.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Usuario/add.ctp" />
-        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/FormAuthenticate.php" />
-        <option value="$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/BaseAuthenticate.php" />
-        <option value="$PROJECT_DIR$/src/Controller/AppController.php" />
-        <option value="$PROJECT_DIR$/src/Controller/MenuController.php" />
-        <option value="$PROJECT_DIR$/src/Template/Element/menu.ctp" />
-        <option value="$PROJECT_DIR$/src/Model/Entity/Usuario.php" />
-        <option value="$PROJECT_DIR$/src/Controller/UsuarioController.php" />
-        <option value="$PROJECT_DIR$/src/Template/Pages/home.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Consultoriodental/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Controller/ConsultorioDentalController.php" />
-        <option value="$PROJECT_DIR$/src/Template/Pages/menu.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Cita/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Paciente/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Empleado/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Inventario/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Model/Table/TipoasentamientoTable.php" />
-        <option value="$PROJECT_DIR$/src/Model/Table/AsentamientoTable.php" />
-        <option value="$PROJECT_DIR$/src/Model/Table/InventarioTable.php" />
-        <option value="$PROJECT_DIR$/src/Model/Table/CodigopostalTable.php" />
+        <option value="$PROJECT_DIR$/src/Controller/AsentamientoController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/BitacoraController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/CatalogoserviciosController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/CategoriaController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/CodigopostalController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/ContactoController.php" />
         <option value="$PROJECT_DIR$/src/Controller/DireccionController.php" />
-        <option value="$PROJECT_DIR$/src/Template/Direccion/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Controller/EmpleadoController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/EstadoController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/ExpedienteController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/FacturaController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/InventarioController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/MunicipioController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/PacienteController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/PagoController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/RazonsocialController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/ReciboController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/TipoasentamientoController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/UsuarioController.php" />
         <option value="$PROJECT_DIR$/src/Model/Table/DireccionTable.php" />
-        <option value="$PROJECT_DIR$/src/Model/Table/EstadoTable.php" />
-        <option value="$PROJECT_DIR$/src/Template/Asentamiento/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Model/Table/ContactoTable.php" />
+        <option value="$PROJECT_DIR$/src/Template/Consultoriodental/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Controller/ConsultorioDentalController.php" />
+        <option value="$PROJECT_DIR$/src/Template/Consultoriodental/view.ctp" />
+        <option value="$PROJECT_DIR$/src/Model/Table/PacienteTable.php" />
+        <option value="$PROJECT_DIR$/src/Template/Consultoriodental/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Model/Table/EmpleadoTable.php" />
+        <option value="$PROJECT_DIR$/src/Template/Cita/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Model/Table/ConsultoriodentalTable.php" />
+        <option value="$PROJECT_DIR$/src/Controller/CitaController.php" />
+        <option value="$PROJECT_DIR$/src/Model/Table/CatalogoserviciosTable.php" />
+        <option value="$PROJECT_DIR$/src/Model/Table/CitaTable.php" />
       </list>
     </option>
   </component>
@@ -242,6 +261,150 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cakephp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -261,6 +424,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Usuario" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tipoasentamiento" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -322,94 +551,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Paciente" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoConsultorio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoConsultorio" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Inventario" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoConsultorio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoConsultorio" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Empleado" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoConsultorio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoConsultorio" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Direccion" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoConsultorio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ProyectoConsultorio" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Consultoriodental" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -450,11 +591,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Template" />
+              <option name="myItemId" value="Model" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Asentamiento" />
+              <option name="myItemId" value="Table" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -476,7 +617,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Table" />
+              <option name="myItemId" value="Entity" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -603,15 +744,16 @@
       <workItem from="1493864964119" duration="1164000" />
       <workItem from="1493875053330" duration="11865000" />
       <workItem from="1493926637898" duration="18322000" />
+      <workItem from="1493994828851" duration="13357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66231000" />
+    <option name="totallyTimeSpent" value="79588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16251831" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -645,222 +787,167 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Model/AppModel.php" />
-    <entry file="file://$PROJECT_DIR$/src/Controller/UsersController.php" />
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/src/Template/Razonsocial/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/User.php" />
-    <entry file="file://$PROJECT_DIR$/src/Controller/PagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Validation/ValidatorAwareTrait.php">
+    <entry file="file://$PROJECT_DIR$/src/Template/Razonsocial/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="130" column="20" lean-forward="false" selection-start-line="130" selection-start-column="20" selection-end-line="130" selection-end-column="20" />
+        <state relative-caret-position="218">
+          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/login.css">
+    <entry file="file://$PROJECT_DIR$/src/Template/Recibo/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="263" lean-forward="true" selection-start-line="8" selection-start-column="263" selection-end-line="8" selection-end-column="263" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/PasswordHasherFactory.php">
+    <entry file="file://$PROJECT_DIR$/src/Template/Recibo/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="476">
+          <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="49" selection-end-line="43" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.php">
+    <entry file="file://$PROJECT_DIR$/src/Template/Recibo/edit.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="80" column="2" lean-forward="false" selection-start-line="80" selection-start-column="2" selection-end-line="80" selection-end-column="2" />
+        <state relative-caret-position="340">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Usuario/view.ctp">
+    <entry file="file://$PROJECT_DIR$/src/Template/Recibo/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Controller/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53">
-          <caret line="752" column="20" lean-forward="false" selection-start-line="752" selection-start-column="20" selection-end-line="752" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Element/Flash/default.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="18" column="39" lean-forward="false" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Usuario/login.ctp">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="77" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Tipoasentamiento/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Tipoasentamiento/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Tipoasentamiento/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Tipoasentamiento/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="109" lean-forward="false" selection-start-line="23" selection-start-column="109" selection-end-line="23" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/FormAuthenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="76" column="47" lean-forward="false" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/BaseAuthenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="56" column="36" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/AbstractPasswordHasher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-661">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/Auth/WeakPasswordHasher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Element/menu.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/MenuController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/AjaxView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/UsuarioTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-          <folding>
-            <element signature="e#34#53#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Entity/Usuario.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="23" column="73" lean-forward="false" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Usuario/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="79" />
+        <state relative-caret-position="187">
+          <caret line="11" column="33" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/UsuarioController.php">
+    <entry file="file://$PROJECT_DIR$/src/Template/Usuario/edit.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1171">
-          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#33#66#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/AppController.php">
+    <entry file="file://$PROJECT_DIR$/src/Template/Usuario/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-          <folding>
-            <element signature="e#602#633#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Usuario/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/BitacoraController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="70" lean-forward="false" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/CatalogoserviciosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="78" lean-forward="false" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/CategoriaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="70" lean-forward="false" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/CodigopostalController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="73" lean-forward="false" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ContactoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ErrorController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -868,170 +955,247 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Consultoriodental/view.ctp">
+    <entry file="file://$PROJECT_DIR$/src/Controller/EmpleadoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="57" lean-forward="true" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        <state relative-caret-position="204">
+          <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ConsultorioDentalController.php">
+    <entry file="file://$PROJECT_DIR$/src/Controller/EstadoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="38" column="10" lean-forward="false" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+        <state relative-caret-position="204">
+          <caret line="12" column="67" lean-forward="false" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Paciente/index.ctp">
+    <entry file="file://$PROJECT_DIR$/src/Controller/ExpedienteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="75" lean-forward="false" selection-start-line="28" selection-start-column="75" selection-end-line="28" selection-end-column="75" />
+        <state relative-caret-position="204">
+          <caret line="12" column="71" lean-forward="false" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Empleado/index.ctp">
+    <entry file="file://$PROJECT_DIR$/src/Controller/FacturaController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="45" column="49" lean-forward="false" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Cita/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="35" column="74" lean-forward="false" selection-start-line="35" selection-start-column="74" selection-end-line="35" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Inventario/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/AsentamientoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="72" lean-forward="false" selection-start-line="79" selection-start-column="72" selection-end-line="79" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Pages/menu.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Pages/home.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="68" column="125" lean-forward="false" selection-start-line="68" selection-start-column="125" selection-end-line="68" selection-end-column="125" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/CategoriaTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Direccion/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="81" lean-forward="false" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/InventarioTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="36" column="91" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="91" />
+        <state relative-caret-position="204">
+          <caret line="12" column="68" lean-forward="false" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/InventarioController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="49" />
+        <state relative-caret-position="221">
+          <caret line="13" column="71" lean-forward="false" selection-start-line="13" selection-start-column="71" selection-end-line="13" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Inventario/add.ctp">
+    <entry file="file://$PROJECT_DIR$/src/Controller/MunicipioController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="95" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="95" />
+        <state relative-caret-position="204">
+          <caret line="12" column="70" lean-forward="false" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/CodigopostalTable.php">
+    <entry file="file://$PROJECT_DIR$/src/Controller/PacienteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="70" />
+        <state relative-caret-position="221">
+          <caret line="13" column="69" lean-forward="false" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/EstadoTable.php">
+    <entry file="file://$PROJECT_DIR$/src/Controller/PagoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" column="60" lean-forward="false" selection-start-line="36" selection-start-column="60" selection-end-line="36" selection-end-column="60" />
+        <state relative-caret-position="221">
+          <caret line="13" column="65" lean-forward="false" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/RazonsocialController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="72" lean-forward="false" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ReciboController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="67" lean-forward="false" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/UsuarioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="68" lean-forward="false" selection-start-line="13" selection-start-column="68" selection-end-line="13" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/TipoasentamientoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="77" lean-forward="false" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/AsentamientoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="55" column="45" lean-forward="false" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Entity/Asentamiento.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/Helper/empty">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Consultoriodental/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="25" column="63" lean-forward="true" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Consultoriodental/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="29" column="92" lean-forward="true" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/ContactoTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="36" column="102" lean-forward="false" selection-start-line="36" selection-start-column="102" selection-end-line="36" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/cakephp/cakephp/src/View/Helper/TextHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding>
+            <marker date="1493259726859" expanded="true" signature="3555:3980" ph="..." />
+            <marker date="1493259726859" expanded="true" signature="3677:3980" ph="..." />
+            <marker date="1493259726859" expanded="true" signature="3796:3980" ph="..." />
+            <marker date="1493259726859" expanded="true" signature="3910:3980" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Table/DireccionTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="37" column="58" lean-forward="false" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+        <state relative-caret-position="442">
+          <caret line="38" column="8" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="102" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/DireccionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
+        <state relative-caret-position="204">
+          <caret line="12" column="70" lean-forward="false" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/AsentamientoTable.php">
+    <entry file="file://$PROJECT_DIR$/src/Controller/ConsultorioDentalController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="78" lean-forward="false" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+        <state relative-caret-position="425">
+          <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/TipoasentamientoTable.php">
+    <entry file="file://$PROJECT_DIR$/src/Template/Consultoriodental/add.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="36" column="73" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="73" />
+        <state relative-caret-position="340">
+          <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="110" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Asentamiento/add.ctp">
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/EmpleadoTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="49" />
+        <state relative-caret-position="631">
+          <caret line="56" column="30" lean-forward="false" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/ConsultoriodentalTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Cita/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="136" lean-forward="false" selection-start-line="22" selection-start-column="118" selection-end-line="22" selection-end-column="136" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/PacienteTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/CatalogoserviciosTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="36" column="76" lean-forward="false" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/CitaTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="39" column="101" lean-forward="false" selection-start-line="39" selection-start-column="101" selection-end-line="39" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/CitaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="68" column="49" lean-forward="false" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
           <folding />
         </state>
       </provider>

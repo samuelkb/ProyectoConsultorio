@@ -11,6 +11,7 @@ use App\Controller\AppController;
 class ConsultoriodentalController extends AppController
 {
 
+    var $paginate = array('limit' => 10, 'order' => array('idConsultoriodental'));
     /**
      * Index method
      *
@@ -59,6 +60,10 @@ class ConsultoriodentalController extends AppController
             }
             $this->Flash->error(__('The consultoriodental could not be saved. Please, try again.'));
         }
+        $contacto = $this->Consultoriodental->Contacto->find('all', array('fields' => array('telefono', 'celular', 'correoElectronico')));
+        $direccion = $this->Consultoriodental->Direccion->find('all', array('fields' => array('nombreCalle', 'numeroExterno', 'CodigoPostal_idCodigoPostal')));
+        $this->set(compact('contacto'));
+        $this->set(compact('direccion'));
         $this->set(compact('consultoriodental'));
         $this->set('_serialize', ['consultoriodental']);
     }
@@ -84,6 +89,10 @@ class ConsultoriodentalController extends AppController
             }
             $this->Flash->error(__('The consultoriodental could not be saved. Please, try again.'));
         }
+        $contacto = $this->Consultoriodental->Contacto->find('all', array('fields' => array('telefono', 'celular', 'correoElectronico')));
+        $direccion = $this->Consultoriodental->Direccion->find('all', array('fields' => array('nombreCalle', 'numeroExterno', 'CodigoPostal_idCodigoPostal')));
+        $this->set(compact('contacto'));
+        $this->set(compact('direccion'));
         $this->set(compact('consultoriodental'));
         $this->set('_serialize', ['consultoriodental']);
     }

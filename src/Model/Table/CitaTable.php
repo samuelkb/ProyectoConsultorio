@@ -33,6 +33,11 @@ class CitaTable extends Table
         $this->setTable('cita');
         $this->setDisplayField('idCita');
         $this->setPrimaryKey('idCita');
+
+        $this->belongsTo('Paciente', ['foreignKey' => 'Paciente_idPaciente', 'joinType' => 'INNER']);
+        $this->belongsTo('Empleado', ['foreignKey' => 'empleado_idempleado', 'joinType' => 'INNER']);
+        $this->belongsTo('Consultoriodental', ['foreignKey' => 'empleado_ConsultorioDental_idConsultorioDental', 'joinType' => 'INNER']);
+        $this->belongsTo('Catalogoservicios', ['foreignKey' => 'CatalogoServicios_idCatalogoServicios', 'joinType' => 'INNER']);
     }
 
     /**

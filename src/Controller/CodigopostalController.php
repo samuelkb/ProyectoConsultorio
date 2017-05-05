@@ -11,6 +11,7 @@ use App\Controller\AppController;
 class CodigopostalController extends AppController
 {
 
+    var $paginate = array('limit' => 10, 'order' => array('idCodigopostal'));
     /**
      * Index method
      *

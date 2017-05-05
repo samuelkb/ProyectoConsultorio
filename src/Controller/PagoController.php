@@ -11,6 +11,7 @@ use App\Controller\AppController;
 class PagoController extends AppController
 {
 
+    var $paginate = array('limit' => 10, 'order' => array('idPago'));
     /**
      * Index method
      *

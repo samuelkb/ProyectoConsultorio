@@ -3,22 +3,22 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
+        <li class="heading"><?= __('Acciones') ?></li>
         <li><?= $this->Form->postLink(
-                __('Delete'),
+                __('Borrar'),
                 ['action' => 'delete', $factura->idFactura],
                 ['confirm' => __('Are you sure you want to delete # {0}?', $factura->idFactura)]
             )
         ?></li>
-        <li><?= $this->Html->link(__('List Factura'), ['action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('Lista  de facturas'), ['action' => 'index']) ?></li>
     </ul>
 </nav>
-<div class="factura form large-9 medium-8 columns content">
+<div class="factura form large-10 medium-8 columns content">
     <?= $this->Form->create($factura) ?>
     <fieldset>
-        <legend><?= __('Edit Factura') ?></legend>
+        <legend><?= __('Editar Factura') ?></legend>
         <?php
             echo $this->Form->control('RFC');
             echo $this->Form->control('IVA');

@@ -3,16 +3,16 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('List Tipoasentamiento'), ['action' => 'index']) ?></li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Tipo de asentamientos'), ['action' => 'index']) ?></li>
     </ul>
 </nav>
 <div class="tipoasentamiento form large-9 medium-8 columns content">
     <?= $this->Form->create($tipoasentamiento) ?>
     <fieldset>
-        <legend><?= __('Add Tipoasentamiento') ?></legend>
+        <legend><?= __('Añadir nuevo tipo de asentamiento') ?></legend>
         <?php
             echo $this->Form->control('descripciónAsentamiento');
         ?>

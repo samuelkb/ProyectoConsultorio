@@ -11,6 +11,7 @@ use App\Controller\AppController;
 class AsentamientoController extends AppController
 {
 
+    var $paginate = array('limit' => 10, 'order' => array('idAsentamiento'));
     /**
      * Index method
      *

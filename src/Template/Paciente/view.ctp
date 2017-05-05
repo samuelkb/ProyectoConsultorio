@@ -3,25 +3,25 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('Edit Paciente'), ['action' => 'edit', $paciente->idPaciente]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Paciente'), ['action' => 'delete', $paciente->idPaciente], ['confirm' => __('Are you sure you want to delete # {0}?', $paciente->idPaciente)]) ?> </li>
-        <li><?= $this->Html->link(__('List Paciente'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Paciente'), ['action' => 'add']) ?> </li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Editar paciente'), ['action' => 'edit', $paciente->idPaciente]) ?> </li>
+        <li><?= $this->Form->postLink(__('Borrar paciente'), ['action' => 'delete', $paciente->idPaciente], ['confirm' => __('Are you sure you want to delete # {0}?', $paciente->idPaciente)]) ?> </li>
+        <li><?= $this->Html->link(__('Lista de pacientes'), ['action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('Nuevo paciente'), ['action' => 'add']) ?> </li>
     </ul>
 </nav>
 <div class="paciente view large-9 medium-8 columns content">
     <h3><?= h($paciente->idPaciente) ?></h3>
     <table class="vertical-table">
         <tr>
-            <th scope="row"><?= __('Anotaciones') ?></th>
-            <td><?= h($paciente->anotaciones) ?></td>
-        </tr>
-        <tr>
             <th scope="row"><?= __('IdPaciente') ?></th>
             <td><?= $this->Number->format($paciente->idPaciente) ?></td>
+        </tr>
+        <tr>
+            <th scope="row"><?= __('Anotaciones') ?></th>
+            <td><?= h($paciente->anotaciones) ?></td>
         </tr>
         <tr>
             <th scope="row"><?= __('Descuento') ?></th>

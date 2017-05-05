@@ -36,6 +36,7 @@ class DireccionTable extends Table
 
         $this->belongsTo('codigopostal',['foreignKey'=>'idCodigoPostal', 'joinType' => 'INNER']);
         $this->belongsTo('estado',['foreignKey'=>'idEstado', 'joinType' => 'INNER']);
+        $this->hasMany('Consultoriodental',['foreignKey'=>'idConsultoriodental','joinType'=>'INNER']);
     }
 
     /**

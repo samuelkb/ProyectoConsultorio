@@ -11,6 +11,7 @@ use App\Controller\AppController;
 class InventarioController extends AppController
 {
 
+    var $paginate = array('limit' => 10, 'order' => array('idInventario'));
     /**
      * Index method
      *

@@ -3,16 +3,16 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('List Expediente'), ['action' => 'index']) ?></li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Lista de expedientes'), ['action' => 'index']) ?></li>
     </ul>
 </nav>
 <div class="expediente form large-9 medium-8 columns content">
     <?= $this->Form->create($expediente) ?>
     <fieldset>
-        <legend><?= __('Add Expediente') ?></legend>
+        <legend><?= __('Añadir expediente') ?></legend>
         <?php
             echo $this->Form->control('Paciente_idPaciente');
         ?>

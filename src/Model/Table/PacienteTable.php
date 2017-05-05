@@ -33,6 +33,8 @@ class PacienteTable extends Table
         $this->setTable('paciente');
         $this->setDisplayField('idPaciente');
         $this->setPrimaryKey(['idPaciente', 'ConsultorioDental_idConsultorioDental']);
+
+        $this->hasMany('Cita',['foreignKey'=>'idCita','joinType'=>'INNER']);
     }
 
     /**

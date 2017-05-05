@@ -3,22 +3,22 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
+        <li class="heading"><?= __('Acciones') ?></li>
         <li><?= $this->Form->postLink(
-                __('Delete'),
+                __('Borrar'),
                 ['action' => 'delete', $paciente->idPaciente],
                 ['confirm' => __('Are you sure you want to delete # {0}?', $paciente->idPaciente)]
             )
         ?></li>
-        <li><?= $this->Html->link(__('List Paciente'), ['action' => 'index']) ?></li>
+        <li><?= $this->Html->link(__('Lista de pacientes'), ['action' => 'index']) ?></li>
     </ul>
 </nav>
 <div class="paciente form large-9 medium-8 columns content">
     <?= $this->Form->create($paciente) ?>
     <fieldset>
-        <legend><?= __('Edit Paciente') ?></legend>
+        <legend><?= __('Editar paciente') ?></legend>
         <?php
             echo $this->Form->control('numeroDePaciente');
             echo $this->Form->control('anotaciones');

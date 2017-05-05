@@ -10,6 +10,7 @@ use App\Controller\AppController;
  */
 class ContactoController extends AppController
 {
+    var $paginate = array('limit' => 10, 'order' => array('idContacto'));
 
     /**
      * Index method

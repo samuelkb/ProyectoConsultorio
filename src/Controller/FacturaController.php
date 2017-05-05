@@ -10,6 +10,7 @@ use App\Controller\AppController;
  */
 class FacturaController extends AppController
 {
+    var $paginate = array('limit' => 10, 'order' => array('idfactura'));
 
     /**
      * Index method

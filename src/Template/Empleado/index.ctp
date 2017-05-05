@@ -18,7 +18,7 @@
                 <th scope="col"><?= $this->Paginator->sort('Salario') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('ConsultorioDental_idConsultorioDental') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('Usuario_idUsuario') ?></th>
-                <th scope="col" class="actions"><?= __('Actions') ?></th>
+                <th scope="col" class="actions"><?= __('Acciones') ?></th>
             </tr>
         </thead>
         <tbody>
@@ -29,9 +29,9 @@
                 <td><?= $this->Number->format($empleado->ConsultorioDental_idConsultorioDental) ?></td>
                 <td><?= $this->Number->format($empleado->Usuario_idUsuario) ?></td>
                 <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $empleado->idempleado]) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $empleado->idempleado]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $empleado->idempleado], ['confirm' => __('Are you sure you want to delete # {0}?', $empleado->idempleado)]) ?>
+                    <?= $this->Html->link(__('Ver'), ['action' => 'view', $empleado->idempleado]) ?>
+                    <?= $this->Html->link(__('Editar'), ['action' => 'edit', $empleado->idempleado]) ?>
+                    <?= $this->Form->postLink(__('Borrar'), ['action' => 'delete', $empleado->idempleado], ['confirm' => __('Are you sure you want to delete # {0}?', $empleado->idempleado)]) ?>
                 </td>
             </tr>
             <?php endforeach; ?>

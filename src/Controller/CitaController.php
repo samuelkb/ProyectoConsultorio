@@ -11,6 +11,7 @@ use App\Controller\AppController;
 class CitaController extends AppController
 {
 
+    var $paginate = array('limit' => 10, 'order' => array('idCita'));
     /**
      * Index method
      *
@@ -58,6 +59,14 @@ class CitaController extends AppController
             }
             $this->Flash->error(__('The citum could not be saved. Please, try again.'));
         }
+        $paciente = $this->Cita->Paciente->find('all', array('fields' => array('numeroDePaciente','anotaciones', 'descuento', 'Usuario_idUsuario')));
+        $empleado = $this->Cita->Empleado->find('all', array('fields' => array('Puesto','Salario', 'Usuario_idUsuario')));
+        $consultoriodental = $this->Cita->Consultoriodental->find('all', array('fields' => array('nombreConsultorio')));
+        $catalogoservicios = $this->Cita->Catalogoservicios->find('all', array('fields' => array('descripcionServicio','costoServicio', 'Especificaciones')));
+        $this->set(compact('paciente'));
+        $this->set(compact('empleado'));
+        $this->set(compact('consultoriodental'));
+        $this->set(compact('catalogoservicios'));
         $this->set(compact('citum'));
         $this->set('_serialize', ['citum']);
     }

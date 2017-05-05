@@ -11,6 +11,7 @@ use App\Controller\AppController;
 class CategoriaController extends AppController
 {
 
+    var $paginate = array('limit' => 10, 'order' => array('idCategoria'));
     /**
      * Index method
      *

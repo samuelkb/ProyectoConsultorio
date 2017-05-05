@@ -10,6 +10,7 @@ use App\Controller\AppController;
  */
 class BitacoraController extends AppController
 {
+    var $paginate = array('limit' => 10, 'order' => array('idBitacora'));
 
     /**
      * Index method

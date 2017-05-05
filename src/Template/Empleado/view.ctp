@@ -3,13 +3,13 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('Edit Empleado'), ['action' => 'edit', $empleado->idempleado]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Empleado'), ['action' => 'delete', $empleado->idempleado], ['confirm' => __('Are you sure you want to delete # {0}?', $empleado->idempleado)]) ?> </li>
-        <li><?= $this->Html->link(__('List Empleado'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Empleado'), ['action' => 'add']) ?> </li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Editar empleado'), ['action' => 'edit', $empleado->idempleado]) ?> </li>
+        <li><?= $this->Form->postLink(__('Borrar empleado'), ['action' => 'delete', $empleado->idempleado], ['confirm' => __('Are you sure you want to delete # {0}?', $empleado->idempleado)]) ?> </li>
+        <li><?= $this->Html->link(__('Lista de empleados'), ['action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('Nuevo empleado'), ['action' => 'add']) ?> </li>
     </ul>
 </nav>
 <div class="empleado view large-9 medium-8 columns content">

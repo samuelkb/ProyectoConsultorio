@@ -11,6 +11,7 @@ use App\Controller\AppController;
 class ReciboController extends AppController
 {
 
+    var $paginate = array('limit' => 10, 'order' => array('idRecibo'));
     /**
      * Index method
      *

@@ -11,6 +11,7 @@ use App\Controller\AppController;
 class PacienteController extends AppController
 {
 
+    var $paginate = array('limit' => 10, 'order' => array('idPaciente'));
     /**
      * Index method
      *

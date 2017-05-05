@@ -23,8 +23,8 @@
         <legend><?= __('Editar Consultorio dental') ?></legend>
         <?php
             echo $this->Form->control('nombreConsultorio');
-            echo $this->Form->control('Direccion_idDireccion');
-            echo $this->Form->control('Contacto_idContacto');
+            echo $this->Form->control('Direccion_idDireccion', array('type'=>'select', 'options' => $direccion));
+            echo $this->Form->control('Contacto_idContacto', array('type'=>'select', 'options' => $contacto));
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

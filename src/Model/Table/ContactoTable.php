@@ -33,6 +33,8 @@ class ContactoTable extends Table
         $this->setTable('contacto');
         $this->setDisplayField('idContacto');
         $this->setPrimaryKey('idContacto');
+
+        $this->hasMany('Consultoriodental',['foreignKey'=>'idConsultoriodental','joinType'=>'INNER']);
     }
 
     /**

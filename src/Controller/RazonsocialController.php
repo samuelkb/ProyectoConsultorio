@@ -11,6 +11,7 @@ use App\Controller\AppController;
 class RazonsocialController extends AppController
 {
 
+    var $paginate = array('limit' => 10, 'order' => array('idRazonsocial'));
     /**
      * Index method
      *

@@ -11,6 +11,7 @@ use Cake\Event\Event;
  */
 class UsuarioController extends AppController
 {
+    var $paginate = array('limit' => 10, 'order' => array('idUsuario'));
     /**
      * Index method
      *

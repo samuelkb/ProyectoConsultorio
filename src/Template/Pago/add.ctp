@@ -3,16 +3,16 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('List Pago'), ['action' => 'index']) ?></li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Lista de pagos'), ['action' => 'index']) ?></li>
     </ul>
 </nav>
 <div class="pago form large-9 medium-8 columns content">
     <?= $this->Form->create($pago) ?>
     <fieldset>
-        <legend><?= __('Add Pago') ?></legend>
+        <legend><?= __('Añadir pago') ?></legend>
         <?php
             echo $this->Form->control('concepto');
             echo $this->Form->control('importe');

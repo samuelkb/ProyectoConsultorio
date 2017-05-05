@@ -6,7 +6,7 @@
 <nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
         <li class="heading"><?= __('Acciones') ?></li>
-        <li><?= $this->Html->link(__('Nuevo inventario'), ['action' => 'add']) ?></li>
+        <li><?= $this->Html->link(__('Nuevo item de inventario'), ['action' => 'add']) ?></li>
     </ul>
 </nav>
 <div class="inventario index large-10 medium-8 columns content">

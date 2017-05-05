@@ -35,6 +35,9 @@ class ConsultoriodentalTable extends Table
         $this->setPrimaryKey('idConsultorioDental');
 
         $this->hasMany('Inventario',['foreignKey' =>'idConsultoriodental']);
+        $this->hasMany('Cita',['foreignKey'=>'idCita','joinType'=>'INNER']);
+        $this->belongsTo('Direccion', ['foreignKey' => 'Direccion_idDireccion', 'joinType' => 'INNER']);
+        $this->belongsTo('Contacto', ['foreignKey' => 'Contacto_idContacto', 'joinType' => 'INNER']);
     }
 
     /**

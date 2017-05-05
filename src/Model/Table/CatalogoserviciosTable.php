@@ -33,6 +33,8 @@ class CatalogoserviciosTable extends Table
         $this->setTable('catalogoservicios');
         $this->setDisplayField('idCatalogoServicios');
         $this->setPrimaryKey('idCatalogoServicios');
+
+        $this->hasMany('Cita',['foreignKey'=>'idCita','joinType'=>'INNER']);
     }
 
     /**

@@ -3,10 +3,10 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New Municipio'), ['action' => 'add']) ?></li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Nuevo municipio'), ['action' => 'add']) ?></li>
     </ul>
 </nav>
 <div class="municipio index large-9 medium-8 columns content">
@@ -17,7 +17,7 @@
                 <th scope="col"><?= $this->Paginator->sort('idMunicipio') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('nombreMunicipio') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('Estado_idEstado') ?></th>
-                <th scope="col" class="actions"><?= __('Actions') ?></th>
+                <th scope="col" class="actions"><?= __('Acciones') ?></th>
             </tr>
         </thead>
         <tbody>
@@ -27,9 +27,9 @@
                 <td><?= h($municipio->nombreMunicipio) ?></td>
                 <td><?= $this->Number->format($municipio->Estado_idEstado) ?></td>
                 <td class="actions">
-                    <?= $this->Html->link(__('View'), ['action' => 'view', $municipio->idMunicipio]) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $municipio->idMunicipio]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $municipio->idMunicipio], ['confirm' => __('Are you sure you want to delete # {0}?', $municipio->idMunicipio)]) ?>
+                    <?= $this->Html->link(__('Ver'), ['action' => 'view', $municipio->idMunicipio]) ?>
+                    <?= $this->Html->link(__('Editar'), ['action' => 'edit', $municipio->idMunicipio]) ?>
+                    <?= $this->Form->postLink(__('Borrar'), ['action' => 'delete', $municipio->idMunicipio], ['confirm' => __('Are you sure you want to delete # {0}?', $municipio->idMunicipio)]) ?>
                 </td>
             </tr>
             <?php endforeach; ?>
@@ -37,11 +37,11 @@
     </table>
     <div class="paginator">
         <ul class="pagination">
-            <?= $this->Paginator->first('<< ' . __('first')) ?>
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->first('<< ' . __('primera')) ?>
+            <?= $this->Paginator->prev('< ' . __('anterior')) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
-            <?= $this->Paginator->last(__('last') . ' >>') ?>
+            <?= $this->Paginator->next(__('siguiente') . ' >') ?>
+            <?= $this->Paginator->last(__('ultima') . ' >>') ?>
         </ul>
         <p><?= $this->Paginator->counter(['format' => __('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')]) ?></p>
     </div>

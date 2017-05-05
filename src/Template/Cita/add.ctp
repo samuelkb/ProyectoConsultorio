@@ -17,10 +17,10 @@
             echo $this->Form->control('horaInicio');
             echo $this->Form->control('horaTermino');
             echo $this->Form->control('observaciones');
-            echo $this->Form->control('Paciente_idPaciente');
-            echo $this->Form->control('empleado_idempleado');
-            echo $this->Form->control('empleado_ConsultorioDental_idConsultorioDental');
-            echo $this->Form->control('CatalogoServicios_idCatalogoServicios');
+            echo $this->Form->control('Paciente_idPaciente', array('type' => 'select', 'options' => $paciente));
+            echo $this->Form->control('empleado_idempleado', array('type' => 'select', 'options' => $empleado));
+            echo $this->Form->control('empleado_ConsultorioDental_idConsultorioDental', array('type' => 'select', 'options' => $consultoriodental));
+            echo $this->Form->control('CatalogoServicios_idCatalogoServicios', array('type' => 'select', 'options' => $catalogoservicios));
             echo $this->Form->control('Pago_idPago');
             echo $this->Form->control('Expediente_idExpediente');
         ?>
