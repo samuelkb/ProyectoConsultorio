@@ -2,87 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a459d397-6bc9-4289-a1a1-2d22773d2885" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/AsentamientoController.php" afterPath="$PROJECT_DIR$/src/Controller/AsentamientoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/BitacoraController.php" afterPath="$PROJECT_DIR$/src/Controller/BitacoraController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/CatalogoserviciosController.php" afterPath="$PROJECT_DIR$/src/Controller/CatalogoserviciosController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/CategoriaController.php" afterPath="$PROJECT_DIR$/src/Controller/CategoriaController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/CitaController.php" afterPath="$PROJECT_DIR$/src/Controller/CitaController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/CodigopostalController.php" afterPath="$PROJECT_DIR$/src/Controller/CodigopostalController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ConsultorioDentalController.php" afterPath="$PROJECT_DIR$/src/Controller/ConsultorioDentalController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ContactoController.php" afterPath="$PROJECT_DIR$/src/Controller/ContactoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/DireccionController.php" afterPath="$PROJECT_DIR$/src/Controller/DireccionController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/EmpleadoController.php" afterPath="$PROJECT_DIR$/src/Controller/EmpleadoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/EstadoController.php" afterPath="$PROJECT_DIR$/src/Controller/EstadoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ExpedienteController.php" afterPath="$PROJECT_DIR$/src/Controller/ExpedienteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/FacturaController.php" afterPath="$PROJECT_DIR$/src/Controller/FacturaController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/InventarioController.php" afterPath="$PROJECT_DIR$/src/Controller/InventarioController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/MunicipioController.php" afterPath="$PROJECT_DIR$/src/Controller/MunicipioController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/PacienteController.php" afterPath="$PROJECT_DIR$/src/Controller/PacienteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/PagoController.php" afterPath="$PROJECT_DIR$/src/Controller/PagoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/RazonsocialController.php" afterPath="$PROJECT_DIR$/src/Controller/RazonsocialController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ReciboController.php" afterPath="$PROJECT_DIR$/src/Controller/ReciboController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/TipoasentamientoController.php" afterPath="$PROJECT_DIR$/src/Controller/TipoasentamientoController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/UsuarioController.php" afterPath="$PROJECT_DIR$/src/Controller/UsuarioController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/CatalogoserviciosTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/CatalogoserviciosTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/CitaTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/CitaTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/ConsultoriodentalTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/ConsultoriodentalTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/ContactoTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/ContactoTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/DireccionTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/DireccionTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/EmpleadoTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/EmpleadoTable.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/PacienteTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/PacienteTable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Cita/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Cita/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Consultoriodental/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Consultoriodental/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Consultoriodental/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Consultoriodental/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Consultoriodental/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Consultoriodental/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Empleado/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Empleado/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Empleado/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Empleado/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Empleado/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Empleado/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Empleado/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Empleado/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Estado/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Estado/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Estado/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Estado/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Estado/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Estado/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Estado/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Estado/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Expediente/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Expediente/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Expediente/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Expediente/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Expediente/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Expediente/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Expediente/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Expediente/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Factura/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Factura/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Factura/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Factura/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Factura/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Factura/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Factura/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Factura/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Inventario/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Inventario/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Inventario/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Inventario/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Inventario/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Inventario/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Inventario/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Inventario/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Municipio/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Municipio/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Municipio/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Municipio/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Municipio/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Municipio/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Municipio/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Municipio/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/Table/UsuarioTable.php" afterPath="$PROJECT_DIR$/src/Model/Table/UsuarioTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Cita/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Cita/edit.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Paciente/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Paciente/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Paciente/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Paciente/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Paciente/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Paciente/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Paciente/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Paciente/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Pago/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Pago/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Pago/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Pago/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Pago/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Pago/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Pago/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Pago/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Razonsocial/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Razonsocial/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Razonsocial/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Razonsocial/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Razonsocial/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Razonsocial/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Razonsocial/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Razonsocial/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Recibo/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Recibo/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Recibo/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Recibo/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Recibo/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Recibo/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Recibo/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Recibo/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Tipoasentamiento/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Tipoasentamiento/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Tipoasentamiento/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Tipoasentamiento/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Tipoasentamiento/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Tipoasentamiento/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Tipoasentamiento/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Tipoasentamiento/view.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Usuario/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Usuario/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Usuario/edit.ctp" afterPath="$PROJECT_DIR$/src/Template/Usuario/edit.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Usuario/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Usuario/index.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Usuario/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Usuario/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/TestCase/Controller/PacienteControllerTest.php" afterPath="$PROJECT_DIR$/tests/TestCase/Controller/PacienteControllerTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,31 +23,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConsultorioDentalController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/ConsultorioDentalController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CitaController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CitaController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/CitaController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="68" column="49" lean-forward="false" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add.ctp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Template/Cita/add.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="136" lean-forward="false" selection-start-line="22" selection-start-column="118" selection-end-line="22" selection-end-column="136" />
+            <state relative-caret-position="323">
+              <caret line="61" column="146" lean-forward="true" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="146" />
               <folding />
             </state>
           </provider>
@@ -130,8 +36,18 @@
       <file leaf-file-name="CitaTable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Table/CitaTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="39" column="101" lean-forward="false" selection-start-line="39" selection-start-column="101" selection-end-line="39" selection-end-column="101" />
+            <state relative-caret-position="206">
+              <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmpleadoTable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Table/EmpleadoTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="56" column="30" lean-forward="false" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -140,8 +56,48 @@
       <file leaf-file-name="PacienteTable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Model/Table/PacienteTable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="76" />
+            <state relative-caret-position="359">
+              <caret line="64" column="60" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/Paciente/add.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="107" lean-forward="false" selection-start-line="20" selection-start-column="107" selection-end-line="20" selection-end-column="107" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/Cita/edit.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="110" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="110" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsuarioTable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Table/UsuarioTable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="56" column="46" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PacienteController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Controller/PacienteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="90" column="117" lean-forward="false" selection-start-line="90" selection-start-column="117" selection-end-line="90" selection-end-column="117" />
               <folding />
             </state>
           </provider>
@@ -155,9 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Template/Pago/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Pago/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Razonsocial/index.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Razonsocial/edit.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Razonsocial/add.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Razonsocial/view.ctp" />
@@ -187,7 +140,6 @@
         <option value="$PROJECT_DIR$/src/Controller/FacturaController.php" />
         <option value="$PROJECT_DIR$/src/Controller/InventarioController.php" />
         <option value="$PROJECT_DIR$/src/Controller/MunicipioController.php" />
-        <option value="$PROJECT_DIR$/src/Controller/PacienteController.php" />
         <option value="$PROJECT_DIR$/src/Controller/PagoController.php" />
         <option value="$PROJECT_DIR$/src/Controller/RazonsocialController.php" />
         <option value="$PROJECT_DIR$/src/Controller/ReciboController.php" />
@@ -198,14 +150,18 @@
         <option value="$PROJECT_DIR$/src/Template/Consultoriodental/edit.ctp" />
         <option value="$PROJECT_DIR$/src/Controller/ConsultorioDentalController.php" />
         <option value="$PROJECT_DIR$/src/Template/Consultoriodental/view.ctp" />
-        <option value="$PROJECT_DIR$/src/Model/Table/PacienteTable.php" />
         <option value="$PROJECT_DIR$/src/Template/Consultoriodental/add.ctp" />
         <option value="$PROJECT_DIR$/src/Model/Table/EmpleadoTable.php" />
         <option value="$PROJECT_DIR$/src/Template/Cita/add.ctp" />
         <option value="$PROJECT_DIR$/src/Model/Table/ConsultoriodentalTable.php" />
-        <option value="$PROJECT_DIR$/src/Controller/CitaController.php" />
         <option value="$PROJECT_DIR$/src/Model/Table/CatalogoserviciosTable.php" />
         <option value="$PROJECT_DIR$/src/Model/Table/CitaTable.php" />
+        <option value="$PROJECT_DIR$/src/Controller/CitaController.php" />
+        <option value="$PROJECT_DIR$/src/Template/Cita/edit.ctp" />
+        <option value="$PROJECT_DIR$/src/Model/Table/UsuarioTable.php" />
+        <option value="$PROJECT_DIR$/src/Model/Table/PacienteTable.php" />
+        <option value="$PROJECT_DIR$/src/Template/Paciente/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Controller/PacienteController.php" />
       </list>
     </option>
   </component>
@@ -551,6 +507,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Paciente" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProyectoConsultorio" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Consultoriodental" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -744,16 +722,16 @@
       <workItem from="1493864964119" duration="1164000" />
       <workItem from="1493875053330" duration="11865000" />
       <workItem from="1493926637898" duration="18322000" />
-      <workItem from="1493994828851" duration="13357000" />
+      <workItem from="1493994828851" duration="15053000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79588000" />
+    <option name="totallyTimeSpent" value="81284000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16251831" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -787,30 +765,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Template/Razonsocial/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Razonsocial/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Recibo/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Template/Recibo/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1003,14 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/PacienteController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="69" lean-forward="false" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/PagoController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1144,34 +1090,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/EmpleadoTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="56" column="30" lean-forward="false" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Table/ConsultoriodentalTable.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Cita/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="136" lean-forward="false" selection-start-line="22" selection-start-column="118" selection-end-line="22" selection-end-column="136" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Table/PacienteTable.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="76" />
           <folding />
         </state>
       </provider>
@@ -1184,18 +1106,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Cita/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="12" lean-forward="false" selection-start-line="19" selection-start-column="12" selection-end-line="22" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/EmpleadoTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="56" column="30" lean-forward="false" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Model/Table/CitaTable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="39" column="101" lean-forward="false" selection-start-line="39" selection-start-column="101" selection-end-line="39" selection-end-column="101" />
+        <state relative-caret-position="206">
+          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Cita/edit.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="110" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Paciente/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="107" lean-forward="false" selection-start-line="20" selection-start-column="107" selection-end-line="20" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/PacienteTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="64" column="60" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/CitaController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="68" column="49" lean-forward="false" selection-start-line="68" selection-start-column="49" selection-end-line="68" selection-end-column="49" />
+        <state relative-caret-position="323">
+          <caret line="61" column="146" lean-forward="true" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="146" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Table/UsuarioTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="56" column="46" lean-forward="false" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/PacienteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="90" column="117" lean-forward="false" selection-start-line="90" selection-start-column="117" selection-end-line="90" selection-end-column="117" />
           <folding />
         </state>
       </provider>

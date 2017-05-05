@@ -33,6 +33,8 @@ class UsuarioTable extends Table
         $this->setTable('usuario');
         $this->setDisplayField('idUsuario');
         $this->setPrimaryKey('idUsuario');
+
+        $this->hasMany('Paciente',['foreignKey'=>'idPaciente','joinType'=>'INNER']);
     }
 
     /**

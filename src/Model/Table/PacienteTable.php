@@ -35,6 +35,7 @@ class PacienteTable extends Table
         $this->setPrimaryKey(['idPaciente', 'ConsultorioDental_idConsultorioDental']);
 
         $this->hasMany('Cita',['foreignKey'=>'idCita','joinType'=>'INNER']);
+        $this->belongsTo('Usuario', ['foreignKey' => 'Usuario_idUsuario', 'joinType' => 'INNER']);
     }
 
     /**

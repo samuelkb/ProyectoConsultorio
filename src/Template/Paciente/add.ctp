@@ -17,7 +17,8 @@
             echo $this->Form->control('numeroDePaciente');
             echo $this->Form->control('anotaciones');
             echo $this->Form->control('descuento');
-            echo $this->Form->control('Usuario_idUsuario');
+            echo $this->Form->control('ConsultorioDental_idConsultorioDental');
+            echo $this->Form->control('Usuario_idUsuario',  array('type' => 'select', 'options' => $usuario));
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

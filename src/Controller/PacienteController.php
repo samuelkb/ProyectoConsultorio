@@ -19,6 +19,9 @@ class PacienteController extends AppController
      */
     public function index()
     {
+        $this->paginate = [
+            'contain' => ['Usuario']
+        ];
         $paciente = $this->paginate($this->Paciente);
 
         $this->set(compact('paciente'));
@@ -35,7 +38,7 @@ class PacienteController extends AppController
     public function view($id = null)
     {
         $paciente = $this->Paciente->get($id, [
-            'contain' => []
+            'contain' => ['Usuario', 'Cita']
         ]);
 
         $this->set('paciente', $paciente);
@@ -59,7 +62,8 @@ class PacienteController extends AppController
             }
             $this->Flash->error(__('The paciente could not be saved. Please, try again.'));
         }
-        $this->set(compact('paciente'));
+        $usuario = $this->Paciente->Usuario->find('all',array('fields' => array('nombreUsuario','apellidoPaterno')));
+        $this->set(compact('paciente', 'usuario'));
         $this->set('_serialize', ['paciente']);
     }
 
@@ -84,7 +88,8 @@ class PacienteController extends AppController
             }
             $this->Flash->error(__('The paciente could not be saved. Please, try again.'));
         }
-        $this->set(compact('paciente'));
+        $usuario = $this->Paciente->Usuario->find('all',array('fields' => array('nombreUsuario','apellidoPaterno')));
+        $this->set(compact('paciente', 'usuario'));
         $this->set('_serialize', ['paciente']);
     }
 

@@ -16,7 +16,19 @@ class PacienteControllerTest extends IntegrationTestCase
      * @var array
      */
     public $fixtures = [
-        'app.paciente'
+        'app.paciente',
+        'app.cita',
+        'app.empleado',
+        'app.consultoriodental',
+        'app.inventario',
+        'app.categoria',
+        'app.consultoriodental',
+        'app.direccion',
+        'app.codigopostal',
+        'app.estado',
+        'app.contacto',
+        'app.catalogoservicios',
+        'app.usuario'
     ];
 
     /**
