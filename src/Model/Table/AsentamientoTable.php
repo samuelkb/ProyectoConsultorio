@@ -33,6 +33,8 @@ class AsentamientoTable extends Table
         $this->setTable('asentamiento');
         $this->setDisplayField('idAsentamiento');
         $this->setPrimaryKey(['idAsentamiento', 'CodigoPostal_idCodigoPostal']);
+
+        $this->belongsTo('tipoasentamiento',['foreignKey'=>'idTipoAsentamiento', 'joinType' => 'INNER']);
     }
 
     /**

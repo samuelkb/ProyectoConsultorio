@@ -56,7 +56,7 @@ class UsuarioTable extends Table
             ->notEmpty('apellidoPaterno');
 
         $validator
-            ->allowEmpty('apellidoMaterno');
+            ->allowEmpty('role');
 
         $validator
             ->requirePresence('password', 'create')
@@ -73,5 +73,11 @@ class UsuarioTable extends Table
             ->notEmpty('Contacto_idContacto');
 
         return $validator;
+    }
+
+    public function buildRules(RulesChecker $rules)
+    {
+        $rules->add($rules->isUnique(['nombreUsuario']));
+        return $rules;
     }
 }

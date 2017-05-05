@@ -36,6 +36,7 @@ class ConsultoriodentalController extends AppController
         $consultoriodental = $this->Consultoriodental->get($id, [
             'contain' => []
         ]);
+        //$this->set()
 
         $this->set('consultoriodental', $consultoriodental);
         $this->set('_serialize', ['consultoriodental']);

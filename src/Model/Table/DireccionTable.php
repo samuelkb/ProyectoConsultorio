@@ -33,6 +33,9 @@ class DireccionTable extends Table
         $this->setTable('direccion');
         $this->setDisplayField('idDireccion');
         $this->setPrimaryKey('idDireccion');
+
+        $this->belongsTo('codigopostal',['foreignKey'=>'idCodigoPostal', 'joinType' => 'INNER']);
+        $this->belongsTo('estado',['foreignKey'=>'idEstado', 'joinType' => 'INNER']);
     }
 
     /**

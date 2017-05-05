@@ -58,6 +58,10 @@ class DireccionController extends AppController
             }
             $this->Flash->error(__('The direccion could not be saved. Please, try again.'));
         }
+        $codigopostal = $this->Direccion->Codigopostal->find('all',array('fields'=>'idCodigoPostal'));
+        $estado = $this->Direccion->Estado->find('all',array('fields'=>'nombreEstado'));
+        $this->set(compact('codigopostal'));
+        $this->set(compact('estado'));
         $this->set(compact('direccion'));
         $this->set('_serialize', ['direccion']);
     }

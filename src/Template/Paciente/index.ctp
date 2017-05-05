@@ -3,10 +3,10 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New Paciente'), ['action' => 'add']) ?></li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Nuevo Paciente'), ['action' => 'add']) ?></li>
     </ul>
 </nav>
 <div class="paciente index large-9 medium-8 columns content">
@@ -17,7 +17,6 @@
                 <th scope="col"><?= $this->Paginator->sort('idPaciente') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('anotaciones') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('descuento') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('ConsultorioDental_idConsultorioDental') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('Usuario_idUsuario') ?></th>
                 <th scope="col" class="actions"><?= __('Actions') ?></th>
             </tr>
@@ -28,7 +27,6 @@
                 <td><?= $this->Number->format($paciente->idPaciente) ?></td>
                 <td><?= h($paciente->anotaciones) ?></td>
                 <td><?= $this->Number->format($paciente->descuento) ?></td>
-                <td><?= $this->Number->format($paciente->ConsultorioDental_idConsultorioDental) ?></td>
                 <td><?= $this->Number->format($paciente->Usuario_idUsuario) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $paciente->idPaciente]) ?>

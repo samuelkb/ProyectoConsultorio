@@ -43,6 +43,31 @@ class AppController extends Controller
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+        //$this->loadComponent('Auth', [
+        //    'authorize' => ['Controller'],
+        //    'authenticate' => [
+        //        'Form' => [
+        //            'fields' => [
+        //                'username' => 'nombreUsuario',
+        //                'password' => 'password'
+        //            ]
+        //        ]
+        //    ],
+        //    'loginAction' => [
+        //       'controller' => 'Usuario',
+        //        'action' => 'login'
+        //    ],
+        //    'authError' => 'Ingrese sus datos correctos',
+        //    'loginRedirect' => [
+        //        'controller' => 'Usuario',
+        //       'action' => 'home'
+        //    ],
+        //    'logoutRedirect' => [
+        //        'controller' => 'Usuario',
+        ///        'action' => 'login'
+        //    ],
+        //    'unauthorizedRedirect' => $this->referer()
+        //]);
 
         /*
          * Enable the following components for recommended CakePHP security settings.
@@ -66,4 +91,6 @@ class AppController extends Controller
             $this->set('_serialize', true);
         }
     }
+
+
 }

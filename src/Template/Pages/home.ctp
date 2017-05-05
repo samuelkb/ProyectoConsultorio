@@ -51,20 +51,28 @@ $cakeDescription = 'Sistema de administración Clinica Dental Alfa';
     </div>
 </header>
 
-<div class="row">
-    <div class="columns large-12">
-        <div class="jumbotron">
-                 <fieldset>
-                   <legend>Usuario</legend>
-                   <input type="text" name="usuario" placeholder="Usuario"><br>
-                   <legend>Password</legend>
-                   <input type="password" name="password" placeholder="Password" required="">
-                 </fieldset>
-                 <?= $this->Form->button(__('Acceder')) ?>
-        </div>
-        <?php Debugger::checkSecurityKeys(); ?>
-    </div>
-    <hr />
+<div class="container">
+<?= $this->Html->css('login') ?>
+<div class="row" style="margin-top:20px">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+		<form role="form">
+			<fieldset>
+				<h2>Please Sign In</h2>
+				<hr class="colorgraph">
+				<div class="form-group">
+                    <input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address">
+				</div>
+				<div class="form-group">
+                    <input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password">
+				</div>
+				<span class="button-checkbox">
+					<button type="button" class="btn" data-color="info"><?= $this->Html->link(__('Login'), ['action' => 'menu']) ?></button>
+				</span>
+				<hr class="colorgraph">
+			</fieldset>
+		</form>
+	</div>
+</div>
 </div>
 </body>
 </html>

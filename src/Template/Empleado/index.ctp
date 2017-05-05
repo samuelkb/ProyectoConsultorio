@@ -3,10 +3,10 @@
   * @var \App\View\AppView $this
   */
 ?>
-<nav class="large-3 medium-4 columns" id="actions-sidebar">
+<nav class="large-2 medium-5 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New Empleado'), ['action' => 'add']) ?></li>
+        <li class="heading"><?= __('Acciones') ?></li>
+        <li><?= $this->Html->link(__('Nuevo empleado'), ['action' => 'add']) ?></li>
     </ul>
 </nav>
 <div class="empleado index large-9 medium-8 columns content">
@@ -14,7 +14,6 @@
     <table cellpadding="0" cellspacing="0">
         <thead>
             <tr>
-                <th scope="col"><?= $this->Paginator->sort('idempleado') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('Puesto') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('Salario') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('ConsultorioDental_idConsultorioDental') ?></th>
@@ -25,7 +24,6 @@
         <tbody>
             <?php foreach ($empleado as $empleado): ?>
             <tr>
-                <td><?= $this->Number->format($empleado->idempleado) ?></td>
                 <td><?= h($empleado->Puesto) ?></td>
                 <td><?= $this->Number->format($empleado->Salario) ?></td>
                 <td><?= $this->Number->format($empleado->ConsultorioDental_idConsultorioDental) ?></td>
@@ -41,11 +39,11 @@
     </table>
     <div class="paginator">
         <ul class="pagination">
-            <?= $this->Paginator->first('<< ' . __('first')) ?>
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
+            <?= $this->Paginator->first('<< ' . __('primero')) ?>
+            <?= $this->Paginator->prev('< ' . __('anterior')) ?>
             <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
-            <?= $this->Paginator->last(__('last') . ' >>') ?>
+            <?= $this->Paginator->next(__('siguiente') . ' >') ?>
+            <?= $this->Paginator->last(__('ultimo') . ' >>') ?>
         </ul>
         <p><?= $this->Paginator->counter(['format' => __('Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total')]) ?></p>
     </div>

@@ -2,6 +2,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Event\Event;
 
 /**
  * Usuario Controller
@@ -10,7 +11,6 @@ use App\Controller\AppController;
  */
 class UsuarioController extends AppController
 {
-
     /**
      * Index method
      *

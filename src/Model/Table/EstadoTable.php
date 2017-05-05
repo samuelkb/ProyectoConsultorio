@@ -33,6 +33,8 @@ class EstadoTable extends Table
         $this->setTable('estado');
         $this->setDisplayField('idEstado');
         $this->setPrimaryKey('idEstado');
+
+        $this->hasMany('Direccion',['foreignKey' =>'idEstado']);
     }
 
     /**

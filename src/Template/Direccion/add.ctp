@@ -17,8 +17,8 @@
             echo $this->Form->control('nombreCalle');
             echo $this->Form->control('numeroExterno');
             echo $this->Form->control('numeroInterior');
-            echo $this->Form->control('CodigoPostal_idCodigoPostal');
-            echo $this->Form->control('Estado_idEstado');
+            echo $this->Form->control('CodigoPostal_idCodigoPostal',array('options'=> $codigopostal));
+            echo $this->Form->control('Estado_idEstado',array('options'=> $estado));
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

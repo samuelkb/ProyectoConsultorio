@@ -33,6 +33,8 @@ class CodigopostalTable extends Table
         $this->setTable('codigopostal');
         $this->setDisplayField('idCodigoPostal');
         $this->setPrimaryKey('idCodigoPostal');
+
+        $this->hasMany('Direccion',['foreignKey' =>'idCodigoPostal']);
     }
 
     /**

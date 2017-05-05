@@ -33,6 +33,8 @@ class TipoasentamientoTable extends Table
         $this->setTable('tipoasentamiento');
         $this->setDisplayField('idTipoAsentamiento');
         $this->setPrimaryKey('idTipoAsentamiento');
+
+        $this->hasMany('Asentamiento',['foreignKey' =>'idTipoAsentamiento']);
     }
 
     /**

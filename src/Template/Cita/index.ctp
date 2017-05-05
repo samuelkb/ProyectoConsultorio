@@ -14,32 +14,26 @@
     <table cellpadding="0" cellspacing="0">
         <thead>
             <tr>
-                <th scope="col"><?= $this->Paginator->sort('id') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('Hora de inicio') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('Hora de termino') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('observaciones') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('Id del paciente') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('Id del empleado') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('Id del consultorio dental') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('Id Catalogo de servicios') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('Id de pago') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('Id de expediente') ?></th>
                 <th scope="col" class="actions"><?= __('Acciones') ?></th>
             </tr>
         </thead>
         <tbody>
             <?php foreach ($cita as $citum): ?>
             <tr>
-                <td><?= $this->Number->format($citum->idCita) ?></td>
                 <td><?= h($citum->horaInicio) ?></td>
                 <td><?= h($citum->horaTermino) ?></td>
                 <td><?= h($citum->observaciones) ?></td>
                 <td><?= $this->Number->format($citum->Paciente_idPaciente) ?></td>
                 <td><?= $this->Number->format($citum->empleado_idempleado) ?></td>
-                <td><?= $this->Number->format($citum->empleado_ConsultorioDental_idConsultorioDental) ?></td>
                 <td><?= $this->Number->format($citum->CatalogoServicios_idCatalogoServicios) ?></td>
                 <td><?= $this->Number->format($citum->Pago_idPago) ?></td>
-                <td><?= $this->Number->format($citum->Expediente_idExpediente) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('Ver'), ['action' => 'view', $citum->idCita]) ?>
                     <?= $this->Html->link(__('Editar'), ['action' => 'edit', $citum->idCita]) ?>

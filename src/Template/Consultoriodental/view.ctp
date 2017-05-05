@@ -18,12 +18,12 @@
     <h3><?= h($consultoriodental->idConsultorioDental) ?></h3>
     <table class="vertical-table">
         <tr>
-            <th scope="row"><?= __('Nombre') ?></th>
-            <td><?= h($consultoriodental->nombreConsultorio) ?></td>
-        </tr>
-        <tr>
             <th scope="row"><?= __('Id') ?></th>
             <td><?= $this->Number->format($consultoriodental->idConsultorioDental) ?></td>
+        </tr>
+        <tr>
+            <th scope="row"><?= __('Nombre') ?></th>
+            <td><?= h($consultoriodental->nombreConsultorio) ?></td>
         </tr>
         <tr>
             <th scope="row"><?= __('Id de direccion') ?></th>
